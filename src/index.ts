@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import appRoute from '../src/routes/app.routes'
 
 // Load environment variables
 dotenv.config();
@@ -17,10 +18,8 @@ mongoose.connect(MONGO_URI)
 // Middleware
 app.use(express.json());
 
-// Basic Routes
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello, MongoDB with TypeScript!');
-});
+app.use('/posts', appRoute);
+
 
 // Example Route
 app.get('/ping', (req: Request, res: Response) => {

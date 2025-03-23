@@ -1,0 +1,15 @@
+[
+  {
+    "id": "af5ed023-5ba6-4a55-a9fe-c11bd6fbb6bd",
+    "title": "Introduction to React",
+    "content": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage state efficiently.",
+    "author": "John Doe",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "date": "2023-01-10T12:34:56Z",
+    "bookmarked": true
+  }
+ 
+]
