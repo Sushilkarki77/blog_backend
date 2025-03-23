@@ -1,11 +1,11 @@
 import express from 'express';
 import { addComment, deleteComment, fetchComments } from '../controllers/comment.controller';
-import { createPost, deletePost,  exportPosts,  fetchPosts, patchPost, searchPostsByTitle } from '../controllers/post.coltroller';
+import { createPostHandler, deletePost,  exportPosts,  fetchPosts, patchPost, searchPostsByTitle } from '../controllers/post.coltroller';
 
 const router = express.Router();
 
 router.get('/', fetchPosts);
-router.post('/', createPost);
+router.post('/', createPostHandler);
 router.patch('/:id', patchPost);
 router.delete('/:id', deletePost);
 router.get('/search', searchPostsByTitle);

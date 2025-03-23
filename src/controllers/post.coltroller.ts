@@ -1,14 +1,16 @@
 import {  RequestHandler } from 'express';
 import { Post, Result } from '../interfaces/interfaces';
 import { PostSchema } from '../models/post.model';
-import { addPost, deletePostHandler, getPostById, getPostsZip, readPosts, updatePost } from '../services/post.service';
+import {  getPostsZip } from '../services/post.service';
+import { createPost, deletePostById, getPostById, getPosts, IPost, updatePostById } from '../models/post';
+import { randomUUID } from 'crypto';
 
 export const fetchPosts: RequestHandler<unknown, Result<Post[] | null>, unknown, { page: string }> = async (req, res, next) => {
   try {
     const { page } = req.query;
     const finalPage: number = page && +page > 1 ? +page - 1 : 0;
 
-    const posts: Post[] | null = await readPosts();
+    const posts: Post[] | null = await getPosts();
 
     if (!posts) {
       res.status(200).json({ result: [] });
@@ -31,7 +33,7 @@ export const searchPostsByTitle: RequestHandler<unknown, Result<Post[] | null>, 
   try {
     const { q } = req.query;
 
-    const posts: Post[] | null = await readPosts();
+    const posts: Post[] | null = await getPosts();
 
     if (!posts) {
       res.status(200).json({ result: [] });
@@ -52,7 +54,7 @@ export const searchPostsByTitle: RequestHandler<unknown, Result<Post[] | null>, 
   }
 };
 
-export const createPost: RequestHandler<unknown, Result<Post> | Error, Omit<Post, 'id'>, unknown> = async (req, res, next): Promise<void> => {
+export const createPostHandler: RequestHandler<unknown, Result<Post> | Error, Omit<Post, 'id'>, unknown> = async (req, res, next): Promise<void> => {
   try {
     const post = req.body;
     const validation = PostSchema.safeParse(post);
@@ -61,7 +63,7 @@ export const createPost: RequestHandler<unknown, Result<Post> | Error, Omit<Post
       return;
     }
 
-    const addedPost: Post = await addPost(post);
+    const addedPost: Post = await createPost({...post, id: randomUUID()});
 
     res.status(201).json({ result: addedPost });
   } catch (error) {
@@ -92,7 +94,7 @@ export const patchPost: RequestHandler<{ id: string }, Result<Post> | Error, Par
       return;
     }
 
-    const updatedPost: Post | null = await updatePost(id, post);
+    const updatedPost: Post | null = await updatePostById(id, post);
 
     if (!updatedPost) {
       next();
@@ -121,7 +123,7 @@ export const deletePost: RequestHandler<{ id: string }, Result<string> | Error, 
       return;
     }
 
-    const deletedPost: boolean = await deletePostHandler(id);
+    const deletedPost: IPost | null = await deletePostById(id);
 
     if (deletedPost) {
       res.status(200).json({ result: 'deleted successfully' });

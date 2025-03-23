@@ -1,8 +1,9 @@
 import {  RequestHandler } from 'express';
 import { Comment, Post, Result } from '../interfaces/interfaces';
 import { CommentSchema } from '../models/comment.model';
-import { createComment, deleteCommentHandler, getCommentsByPostID } from '../services/comment.service';
-import { getPostById } from '../services/post.service';
+import { createComment, deleteCommentHandler, getCommentsByPostID, IComment } from '../models/comment';
+import { getPostById } from '../models/post';
+import { randomUUID } from 'crypto';
 
 export const fetchComments: RequestHandler<{ postId: string }, Result<Comment[]> | Error> = async (req, res, next) => {
     try {
@@ -42,7 +43,8 @@ export const addComment: RequestHandler<{ postId: string }, Result<Comment> | Er
             res.status(400).json({ name: 'error', message: 'Invalid Post ID' });
             return;
         }
-        const addedComment: Comment = await createComment(postId, {...comment, postId});
+        const tempComment = {...comment, postId, id: randomUUID()}
+        const addedComment: IComment = await createComment(tempComment);
 
         res.status(200).json({ result: addedComment });
     } catch (error) {
