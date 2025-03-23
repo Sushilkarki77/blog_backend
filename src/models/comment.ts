@@ -1,19 +1,20 @@
 import mongoose, { Document, Schema } from "mongoose";
+import { readComments } from "../services/comment.service";
 
 export interface IComment extends Document {
-  id: string;
-  postId: string;
-  author: string;
-  content: string;
-  date: string;
+    id: string;
+    postId: string;
+    author: string;
+    content: string;
+    date: string;
 }
 
 const CommentSchema: Schema = new mongoose.Schema({
-  id: { type: String, required: true, unique: true },
-  postId: { type: String, required: true },
-  author: { type: String, required: true },
-  content: { type: String, required: true },
-  date: { type: String, required: true }
+    id: { type: String, required: true, unique: true },
+    postId: { type: String, required: true },
+    author: { type: String, required: true },
+    content: { type: String, required: true },
+    date: { type: String, required: true }
 });
 
 export const CommentModel = mongoose.model<IComment>('Comment', CommentSchema);
@@ -21,12 +22,18 @@ export const CommentModel = mongoose.model<IComment>('Comment', CommentSchema);
 export const getComments = (): Promise<IComment[]> => CommentModel.find().exec();
 
 export const getCommentsByPostID = (postId: string): Promise<IComment[]> =>
-  CommentModel.find({ postId }).exec();
+    CommentModel.find({ postId }).exec();
 
 export const createComment = (comment: Partial<IComment>): Promise<IComment> => {
-  const newComment = new CommentModel({ ...comment});
-  return newComment.save().then((comment) => comment.toObject() as IComment);  
+    const newComment = new CommentModel({ ...comment });
+    return newComment.save().then((comment) => comment.toObject() as IComment);
 };
 
 export const deleteCommentHandler = (commentID: string): Promise<IComment | null> =>
-  CommentModel.findOneAndDelete({ id: commentID }).exec();
+    CommentModel.findOneAndDelete({ id: commentID }).exec();
+
+export const seedComments = async () => {
+    const comments: Comment[] | null = await readComments()
+     await CommentModel.deleteMany({}); 
+    if (comments) CommentModel.insertMany(comments);
+}

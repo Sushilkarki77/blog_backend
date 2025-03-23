@@ -1,15 +1,15 @@
 
 // import fs from 'fs/promises';
-// import path from 'path';
+import path from 'path';
 // // import { v4 as uuidv4 } from 'uuid';
 import { markdownItem, Post } from '../interfaces/interfaces';
 import { getPosts } from '../models/post';
 import { createZipInMemory, markdownContent } from '../utils/helper-functions';
-// import { readJsonFile, writeJsonFile } from './file.service';
+import { readJsonFile, writeJsonFile } from './file.service';
 
-// const postsFilePath = path.join(__dirname, '../database/Posts.json');
+const postsFilePath = path.join(__dirname, '../database/Posts.json');
 
-// export const readPosts = async (): Promise<Post[] | null> => readJsonFile<Post[]>(postsFilePath);
+export const readPosts = async (): Promise<Post[] | null> => readJsonFile<Post[]>(postsFilePath);
 // export const writePosts = async (data: Post[]) => writeJsonFile(postsFilePath, data);
 
 // export const getPostById = async (postId: string): Promise<Post | null> => {

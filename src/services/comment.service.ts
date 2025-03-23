@@ -1,12 +1,12 @@
 
-// import path from 'path';
+import path from 'path';
 // // import { v4 as uuidv4 } from 'uuid';
 // import { Comment } from '../interfaces/interfaces';
-// import { readJsonFile, writeJsonFile } from './file.service';
+import { readJsonFile, writeJsonFile } from './file.service';
 
-// const commentsFilePath = path.join(__dirname, '../database/comments.json');
+const commentsFilePath = path.join(__dirname, '../database/comments.json');
 
-// export const readComments = async (): Promise<Comment[] | null> => readJsonFile<Comment[]>(commentsFilePath);
+export const readComments = async (): Promise<Comment[] | null> => readJsonFile<Comment[]>(commentsFilePath);
 // export const writeComments = async (data: Comment[]) => writeJsonFile(commentsFilePath, data);
 
 // export const deleteCommentHandler = async (commentID: string): Promise<boolean> => {

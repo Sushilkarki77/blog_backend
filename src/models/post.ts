@@ -1,4 +1,6 @@
 import mongoose, { Document, Schema } from 'mongoose';
+import { readPosts } from '../services/post.service';
+import { Post } from '../interfaces/interfaces';
 
 export interface IPost extends Document {
   id: string;
@@ -35,3 +37,11 @@ export const updatePostById = (id: string, values: Partial<IPost>): Promise<IPos
 
 export const deletePostById = (id: string): Promise<IPost | null> =>
   PostModel.findOneAndDelete({ id }).exec();
+
+export const seedPosts = async () => {
+    const posts: Post[] | null = await readPosts()
+    await PostModel.deleteMany({}); 
+    
+    if (posts) PostModel.insertMany(posts);
+}
+

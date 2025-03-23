@@ -1,7 +1,7 @@
 import {  RequestHandler } from 'express';
 import { Comment, Post, Result } from '../interfaces/interfaces';
 import { CommentSchema } from '../models/comment.model';
-import { createComment, deleteCommentHandler, getCommentsByPostID, IComment } from '../models/comment';
+import { createComment, deleteCommentHandler, getCommentsByPostID, IComment, seedComments } from '../models/comment';
 import { getPostById } from '../models/post';
 import { randomUUID } from 'crypto';
 
@@ -20,6 +20,8 @@ export const fetchComments: RequestHandler<{ postId: string }, Result<Comment[]>
     }
 
 };
+
+
 
 export const addComment: RequestHandler<{ postId: string }, Result<Comment> | Error, Omit<Comment, 'id'>, unknown> = async (req, res, next) => {
 

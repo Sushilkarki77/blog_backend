@@ -2,8 +2,9 @@ import {  RequestHandler } from 'express';
 import { Post, Result } from '../interfaces/interfaces';
 import { PostSchema } from '../models/post.model';
 import {  getPostsZip } from '../services/post.service';
-import { createPost, deletePostById, getPostById, getPosts, IPost, updatePostById } from '../models/post';
+import { createPost, deletePostById, getPostById, getPosts, IPost, updatePostById, seedPosts } from '../models/post';
 import { randomUUID } from 'crypto';
+import { seedComments } from '../models/comment';
 
 export const fetchPosts: RequestHandler<unknown, Result<Post[] | null>, unknown, { page: string }> = async (req, res, next) => {
   try {
@@ -28,6 +29,21 @@ export const fetchPosts: RequestHandler<unknown, Result<Post[] | null>, unknown,
     next(error);
   }
 };
+
+
+export const seedHandler: RequestHandler<unknown, unknown, unknown, unknown> = async (req, res, next) => {
+  try {
+    await seedPosts()
+    await seedComments()
+    res.status(200).json({message: 'Data seed successful!'});
+  } catch (error) {
+    next(error);
+  }
+};
+
+
+
+
 
 export const searchPostsByTitle: RequestHandler<unknown, Result<Post[] | null>, unknown, { q: string }> = async (req, res, next) => {
   try {

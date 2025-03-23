@@ -1,6 +1,6 @@
 import express from 'express';
 import { addComment, deleteComment, fetchComments } from '../controllers/comment.controller';
-import { createPostHandler, deletePost,  exportPosts,  fetchPosts, patchPost, searchPostsByTitle } from '../controllers/post.coltroller';
+import { createPostHandler, deletePost,  exportPosts,  fetchPosts, patchPost, searchPostsByTitle, seedHandler } from '../controllers/post.coltroller';
 
 const router = express.Router();
 
@@ -15,5 +15,9 @@ router.post('/:postId/comments', addComment);
 router.delete('/:postId/comments/:commentId', deleteComment);
 
 router.get('/export', exportPosts);
+
+
+router.post('/seed', seedHandler);
+
 
 export default router;

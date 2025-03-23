@@ -10,6 +10,908 @@
     ],
     "date": "2023-01-10T12:34:56Z",
     "bookmarked": true
+  },
+  {
+    "id": "e23f97c7-7c5a-4b50-a466-ff8a073f23f8",
+    "title": "Mastering JavaScript",
+    "content": "JavaScript is a versatile programming language that powers dynamic content on the web. Mastering JavaScript involves understanding ES6+, asynchronous programming, and modern frameworks.",
+    "author": "Jane Smith",
+    "tags": [
+      "javascript",
+      "frontend"
+    ],
+    "date": "2023-01-11T13:45:32Z",
+    "bookmarked": true
+  },
+  {
+    "id": "7f865fd5-1e1c-4a8b-9350-82be7058237a",
+    "title": "Understanding Node.js",
+    "content": "Node.js is a runtime environment that allows JavaScript to be used for backend development. It is built on Chrome's V8 engine and enables scalable network applications.",
+    "author": "Tom Green",
+    "tags": [
+      "nodejs",
+      "backend"
+    ],
+    "date": "2023-01-12T14:23:11Z",
+    "bookmarked": false
+  },
+  {
+    "id": "16a47c65-44cf-45d0-b1f4-6f8d5cd1e7db",
+    "title": "CSS Grid Layouts",
+    "content": "CSS Grid is a powerful layout system that allows developers to create complex, responsive grid-based designs with minimal code.",
+    "author": "Sarah Lee",
+    "tags": [
+      "css",
+      "frontend"
+    ],
+    "date": "2023-01-13T15:10:45Z",
+    "bookmarked": false
+  },
+  {
+    "id": "5425c5a1-501b-4f22-b4f2-72d3a7e29f85",
+    "title": "Advanced React Patterns",
+    "content": "Advanced React patterns, such as higher-order components, render props, and custom hooks, help developers write reusable and maintainable code.",
+    "author": "Emily Taylor",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "date": "2023-01-15T17:38:22Z",
+    "bookmarked": false
+  },
+  {
+    "id": "e15e3938-7e6d-47c2-90c1-94d0a8fd9577",
+    "title": "Web Accessibility Basics",
+    "content": "Web accessibility ensures that websites are usable by people with disabilities. It includes best practices like semantic HTML, ARIA attributes, and keyboard navigation.",
+    "author": "Mark Johnson",
+    "tags": [
+      "accessibility",
+      "frontend"
+    ],
+    "date": "2023-01-16T18:52:35Z",
+    "bookmarked": true
+  },
+  {
+    "id": "c443f65a-8206-4c28-b407-dbb1a907b2b0",
+    "title": "Node.js for Beginners",
+    "content": "Getting started with Node.js involves understanding its event-driven architecture, non-blocking I/O, and using npm to manage dependencies.",
+    "author": "Tom Green",
+    "tags": [
+      "nodejs",
+      "backend"
+    ],
+    "date": "2023-01-17T19:11:42Z",
+    "bookmarked": false
+  },
+  {
+    "id": "99f21f2f-17cd-4f35-9c1e-d32d41ae2e5a",
+    "title": "HTML5 and CSS3 Essentials",
+    "content": "HTML5 introduces semantic elements, while CSS3 offers features like flexbox, animations, and media queries for responsive design.",
+    "author": "Amy Clark",
+    "tags": [
+      "html",
+      "css",
+      "frontend"
+    ],
+    "date": "2023-01-18T20:30:51Z",
+    "bookmarked": true
+  },
+  {
+    "id": "876e7207-9bb4-4ea1-b062-8bb7d1d92d92",
+    "title": "Understanding TypeScript",
+    "content": "TypeScript is a strongly typed superset of JavaScript that improves code quality and maintainability by adding static typing.",
+    "author": "Michael Harris",
+    "tags": [
+      "typescript",
+      "frontend"
+    ],
+    "date": "2023-01-19T21:40:08Z",
+    "bookmarked": false
+  },
+  {
+    "id": "a4d57f97-7a48-48be-82d1-39ea764fc1fe",
+    "title": "JavaScript for Beginners",
+    "content": "JavaScript is the backbone of web development. Beginners should start with variables, loops, functions, and event handling.",
+    "author": "Olivia Taylor",
+    "tags": [
+      "javascript",
+      "frontend"
+    ],
+    "date": "2023-01-20T22:50:18Z",
+    "bookmarked": true
+  },
+  {
+    "id": "bb5e13e5-4477-4e2f-9131-7d5b5f7cfc34",
+    "title": "State Management in React",
+    "content": "State management in React can be handled using built-in hooks like useState and useReducer or external libraries such as Redux and Zustand.",
+    "author": "David Brown",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "date": "2023-01-21T10:15:30Z",
+    "bookmarked": false
+  },
+  {
+    "id": "c3dcb2a8-bba4-44b3-bb0d-63b2f79c048e",
+    "title": "Functional Programming in JavaScript",
+    "content": "Functional programming in JavaScript promotes immutability, pure functions, and higher-order functions for better maintainability and readability.",
+    "author": "Sophia Martinez",
+    "tags": [
+      "javascript",
+      "functional-programming"
+    ],
+    "date": "2023-01-22T11:20:45Z",
+    "bookmarked": true
+  },
+  {
+    "id": "5c6e7434-42cb-4bc5-8be1-3c1e20475d69",
+    "title": "Building REST APIs with Express",
+    "content": "Express.js simplifies backend development by providing a minimal and flexible framework for building RESTful APIs.",
+    "author": "Emma Thompson",
+    "tags": [
+      "nodejs",
+      "backend"
+    ],
+    "date": "2023-01-24T13:45:32Z",
+    "bookmarked": false
+  },
+  {
+    "id": "c9a45676-94fc-497c-bd5f-6f8c48ebf276",
+    "title": "GraphQL vs REST: Key Differences",
+    "content": "GraphQL and REST are both API architectures. GraphQL provides flexibility with its query language, while REST relies on fixed endpoints.",
+    "author": "William Johnson",
+    "tags": [
+      "graphql",
+      "backend"
+    ],
+    "date": "2023-01-25T14:23:11Z",
+    "bookmarked": false
+  },
+  {
+    "id": "ca534574-b2d5-44e4-b423-064ffebd3e57",
+    "title": "Introduction to WebSockets",
+    "content": "WebSockets enable real-time communication between the client and server, making them ideal for chat applications and live updates.",
+    "author": "Isabella Davis",
+    "tags": [
+      "websockets",
+      "backend"
+    ],
+    "date": "2023-01-26T15:10:45Z",
+    "bookmarked": true
+  },
+  {
+    "id": "e24f1c7f-ae38-49a9-92a0-263df2b7c502",
+    "title": "Handling Forms in React",
+    "content": "React provides controlled and uncontrolled components to manage form inputs, improving user experience and state management.",
+    "author": "Ethan White",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "date": "2023-01-27T16:38:22Z",
+    "bookmarked": false
+  },
+  {
+    "id": "2fa7f9bb-d775-43cf-8ea3-f18a7604a60f",
+    "title": "Understanding Event Loop in JavaScript",
+    "content": "The event loop is a crucial concept in JavaScript that manages asynchronous tasks, including callbacks, promises, and async/await.",
+    "author": "Mia Roberts",
+    "tags": [
+      "javascript",
+      "event-loop"
+    ],
+    "date": "2023-01-28T17:52:35Z",
+    "bookmarked": true
+  },
+  {
+    "id": "07b96cc5-2363-4fc1-9421-7060d6fa02a1",
+    "title": "Building Serverless Applications",
+    "content": "Serverless computing allows developers to run functions in the cloud without managing infrastructure, reducing costs and scaling automatically.",
+    "author": "Benjamin Scott",
+    "tags": [
+      "serverless",
+      "cloud"
+    ],
+    "date": "2023-01-29T18:11:42Z",
+    "bookmarked": false
+  },
+  {
+    "id": "ad6496a4-043d-4ea5-b6f6-8c77e9a497d7",
+    "title": "Understanding OAuth 2.0",
+    "content": "OAuth 2.0 is an industry-standard protocol for authorization, commonly used in applications requiring third-party authentication.",
+    "author": "Charlotte Baker",
+    "tags": [
+      "oauth",
+      "security"
+    ],
+    "date": "2023-01-30T19:30:51Z",
+    "bookmarked": true
+  },
+  {
+    "id": "36e58c56-9c9f-49b8-a53a-07b6cdab9db9",
+    "title": "Microservices Architecture",
+    "content": "Microservices architecture enables scalable and maintainable applications by breaking systems into smaller, independently deployable services.",
+    "author": "Daniel Harris",
+    "tags": [
+      "microservices",
+      "architecture"
+    ],
+    "date": "2023-01-31T20:40:08Z",
+    "bookmarked": false
+  },
+  {
+    "id": "fb4ec854-e3b3-4096-b5c4-7db687b58653",
+    "title": "Docker for Beginners",
+    "content": "Docker allows developers to package applications and dependencies into containers for easy deployment and scalability.",
+    "author": "Grace Edwards",
+    "tags": [
+      "docker",
+      "devops"
+    ],
+    "date": "2023-02-01T21:50:18Z",
+    "bookmarked": true
+  },
+  {
+    "id": "88a8b35d-8c2b-4a6c-a017-3c27f29e3ad6",
+    "title": "Testing React Applications",
+    "content": "Testing in React can be done using tools like Jest and React Testing Library to ensure components work as expected.",
+    "author": "Henry Wright",
+    "tags": [
+      "testing",
+      "react"
+    ],
+    "date": "2023-02-02T22:05:30Z",
+    "bookmarked": false
+  },
+  {
+    "id": "b47e226f-13ff-49b7-8cf2-6a1763aa70a8",
+    "title": "Introduction to Redux",
+    "content": "Redux is a state management library that provides a centralized store, making state predictable and easier to debug.",
+    "author": "Lily Carter",
+    "tags": [
+      "redux",
+      "frontend"
+    ],
+    "date": "2023-02-03T23:15:45Z",
+    "bookmarked": true
+  },
+  {
+    "id": "8c62b2c7-e07d-4b1f-8f34-50f385e2ef76",
+    "title": "Mastering CSS Grid",
+    "content": "CSS Grid is a powerful layout system that allows developers to create complex designs with ease. It is essential for modern web design.",
+    "author": "Lucas Brown",
+    "tags": [
+      "css",
+      "frontend"
+    ],
+    "date": "2023-11-02T16:50:22Z",
+    "bookmarked": false
+  },
+  {
+    "id": "9d281bf3-d9f9-463b-92f5-98fa1000b0f5",
+    "title": "React Lifecycle Methods",
+    "content": "In React, lifecycle methods allow you to run code at different points in a component's life. Learn how to use `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
+    "author": "Emily Carter",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "date": "2024-01-10T18:22:45Z",
+    "bookmarked": false
+  },
+  {
+    "id": "d6a5e6d0-7fe0-4fd2-b106-634dc4306799",
+    "title": "JavaScript Async Patterns",
+    "content": "JavaScript provides various async patterns like callbacks, promises, and async/await. Each has its advantages and use cases.",
+    "author": "Ryan Davis",
+    "tags": [
+      "javascript",
+      "async"
+    ],
+    "date": "2024-02-22T20:35:12Z",
+    "bookmarked": false
+  },
+  {
+    "id": "f153c6c7-f1fa-4655-a5f3-287b4b074276",
+    "title": "TypeScript for Beginners",
+    "content": "TypeScript is a superset of JavaScript that adds static typing to the language. It helps prevent errors and improves code quality in large applications.",
+    "author": "Ava Wilson",
+    "tags": [
+      "typescript",
+      "frontend"
+    ],
+    "date": "2024-02-15T07:11:30Z",
+    "bookmarked": false
+  },
+  {
+    "id": "b625ed85-342a-42cf-94fb-573928b0d2f7",
+    "title": "Learning Python Basics",
+    "content": "Python is an easy-to-learn, versatile programming language. It is widely used for web development, data science, and automation.",
+    "author": "Jack Thompson",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "date": "2023-12-10T12:45:30Z",
+    "bookmarked": true
+  },
+  {
+    "id": "234b47b8-8f8c-4b60-b2f4-5d5a73886a6b",
+    "title": "Vue.js for Beginners",
+    "content": "Vue.js is a progressive JavaScript framework for building user interfaces. It’s easy to learn and integrate into existing projects.",
+    "author": "Mia Green",
+    "tags": [
+      "vue",
+      "frontend"
+    ],
+    "date": "2024-01-08T11:40:14Z",
+    "bookmarked": true
+  },
+  {
+    "id": "bdef56a8-bd02-4d8e-a7e0-0e320c64e72f",
+    "title": "Node.js Event Loop",
+    "content": "The event loop in Node.js allows non-blocking I/O operations by executing code asynchronously. It’s fundamental to understanding how Node.js handles concurrency.",
+    "author": "Henry Lee",
+    "tags": [
+      "node.js",
+      "backend"
+    ],
+    "date": "2023-10-15T09:18:27Z",
+    "bookmarked": false
+  },
+  {
+    "id": "cbe4f251-0a6d-41f7-926b-11151cba5a29",
+    "title": "What is GraphQL?",
+    "content": "GraphQL is a query language for APIs, allowing clients to request only the data they need. It is more flexible and efficient than traditional REST APIs.",
+    "author": "Sophia Adams",
+    "tags": [
+      "graphql",
+      "backend"
+    ],
+    "date": "2023-11-23T10:13:50Z",
+    "bookmarked": false
+  },
+  {
+    "id": "ef467d29-f0d4-4408-b0c9-b32efc42cf49",
+    "title": "Mastering Regular Expressions",
+    "content": "Regular expressions (regex) are powerful tools for pattern matching in strings. Mastering regex is essential for data validation and text manipulation.",
+    "author": "Liam Harris",
+    "tags": [
+      "regex",
+      "programming"
+    ],
+    "date": "2024-03-01T17:50:33Z",
+    "bookmarked": true
+  },
+  {
+    "id": "fe1dbaf0-b1d2-4f37-9673-d8dbfe056907",
+    "title": "JavaScript ES6 Features",
+    "content": "ECMAScript 6 (ES6) introduced many new features like arrow functions, template literals, classes, and modules that modern JavaScript developers should master.",
+    "author": "Olivia Taylor",
+    "tags": [
+      "javascript",
+      "es6"
+    ],
+    "date": "2024-02-28T13:45:18Z",
+    "bookmarked": false
+  },
+  {
+    "id": "2a789bdb-bfa4-4b74-b6d4-b351d7cc28ae",
+    "title": "Understanding Closures in JavaScript",
+    "content": "Closures in JavaScript allow a function to retain access to its lexical scope even after it has been executed. This is a key concept to master.",
+    "author": "Aiden Scott",
+    "tags": [
+      "javascript",
+      "closures"
+    ],
+    "date": "2024-03-04T10:25:22Z",
+    "bookmarked": false
+  },
+  {
+    "id": "fbc6f9e7-6c8a-40fa-bf0a-7c35b3cbd620",
+    "title": "Introduction to MongoDB",
+    "content": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It’s widely used in modern web applications due to its scalability.",
+    "author": "Ella Martinez",
+    "tags": [
+      "mongodb",
+      "backend"
+    ],
+    "date": "2024-01-21T19:00:13Z",
+    "bookmarked": false
+  },
+  {
+    "id": "5be395d4-f7c0-4e30-bf4d-6c86379c3767",
+    "title": "Understanding JavaScript Promises",
+    "content": "JavaScript promises are objects that represent the eventual completion (or failure) of an asynchronous operation. Learn how to handle async code effectively.",
+    "author": "Ethan Rodriguez",
+    "tags": [
+      "javascript",
+      "async"
+    ],
+    "date": "2023-12-22T14:05:55Z",
+    "bookmarked": true
+  },
+  {
+    "id": "37563a8a-16c7-49a0-a07b-6947e92375d9",
+    "title": "What is REST API?",
+    "content": "REST (Representational State Transfer) APIs are a way to design web services that allow applications to communicate over HTTP. It’s widely used for building scalable and stateless web services.",
+    "author": "Mason King",
+    "tags": [
+      "api",
+      "backend"
+    ],
+    "date": "2023-11-12T13:25:47Z",
+    "bookmarked": false
+  },
+  {
+    "id": "0b8db70b-4501-4fe9-89b0-b4e3d93ed0be",
+    "title": "Exploring WebSockets",
+    "content": "WebSockets provide full-duplex communication channels over a single TCP connection. They are ideal for real-time applications like chat or live notifications.",
+    "author": "Zoe Allen",
+    "tags": [
+      "websockets",
+      "backend"
+    ],
+    "date": "2024-02-10T11:10:40Z",
+    "bookmarked": true
+  },
+  {
+    "id": "4d3e1f38-c61a-4231-b79b-cc8fc457ef53",
+    "title": "Introduction to Docker",
+    "content": "Docker is a platform for developing, shipping, and running applications inside containers. It helps developers ensure consistency across environments.",
+    "author": "Harper Lee",
+    "tags": [
+      "docker",
+      "devops"
+    ],
+    "date": "2023-09-18T08:45:27Z",
+    "bookmarked": true
+  },
+  {
+    "id": "dc66a5fc-2a9c-4b56-b6b7-9e6ac01f7f34",
+    "title": "Building RESTful APIs with Express",
+    "content": "Express is a fast, minimalist web framework for Node.js. Learn how to build RESTful APIs with Express and how to handle routing and middleware.",
+    "author": "Isabella Evans",
+    "tags": [
+      "express",
+      "backend"
+    ],
+    "date": "2023-11-19T10:55:36Z",
+    "bookmarked": false
+  },
+  {
+    "id": "4e07bc34-d357-4ec3-972f-f855850f4d62",
+    "title": "Understanding HTTP Protocol",
+    "content": "The HTTP protocol is the foundation of data communication on the web. Understanding its methods, status codes, and headers is crucial for web developers.",
+    "author": "Mila Cooper",
+    "tags": [
+      "http",
+      "frontend"
+    ],
+    "date": "2024-03-07T16:50:21Z",
+    "bookmarked": false
+  },
+  {
+    "id": "634874d9-5e6e-43b9-93b8-8b24b09e9d08",
+    "title": "SQL vs NoSQL Databases",
+    "content": "Learn the differences between SQL and NoSQL databases. SQL databases are relational, while NoSQL databases are schema-less and more flexible.",
+    "author": "Lily Roberts",
+    "tags": [
+      "database",
+      "backendas",
+      "nosql"
+    ],
+    "date": "Mon Mar 17 2025",
+    "bookmarked": true
+  },
+  {
+    "id": "f7557d11-44f0-4c4f-b18e-07e4c59777b5",
+    "title": "Introduction to Machine Learning",
+    "content": "Machine learning is a field of artificial intelligence that focuses on building algorithms that allow computers to learn from data and make decisions.",
+    "author": "Gabriel Scott",
+    "tags": [
+      "machine learning",
+      "ai"
+    ],
+    "date": "2023-12-05T08:18:44Z",
+    "bookmarked": false
+  },
+  {
+    "id": "9cba0bc3-6a25-48d4-b184-f885a4b47347",
+    "title": "Intro to AWS Cloud Computing",
+    "content": "Amazon Web Services (AWS) offers a suite of cloud services for computing, storage, and networking. It's essential for developers to understand how to use AWS.",
+    "author": "Matthew Clark",
+    "tags": [
+      "aws",
+      "cloud"
+    ],
+    "date": "2024-01-05T13:10:01Z",
+    "bookmarked": true
+  },
+  {
+    "id": "bb2589d9-bfdb-4885-8b35-fd7434d2d9f0",
+    "title": "Exploring Python Libraries",
+    "content": "Python has a rich ecosystem of libraries for tasks like data analysis, web scraping, and automation. Learn about the most popular Python libraries.",
+    "author": "Nina Kim",
+    "tags": [
+      "python",
+      "libraries"
+    ],
+    "date": "2024-02-25T09:12:53Z",
+    "bookmarked": false
+  },
+  {
+    "id": "be96a5cc-3d8b-42a4-876f-8e8b9f88b440",
+    "title": "Introduction to Functional Programming",
+    "content": "Functional programming focuses on writing code using functions. It promotes immutability and higher-order functions for more predictable and testable code.",
+    "author": "Grace Davis",
+    "tags": [
+      "functional programming",
+      "programming"
+    ],
+    "date": "2024-02-01T11:20:32Z",
+    "bookmarked": true
+  },
+  {
+    "id": "a7f582d1-d7be-4d9f-9db5-dfbf4edb63b1",
+    "title": "Git Basics for Beginners",
+    "content": "Git is a version control system that allows developers to track changes in their code and collaborate with others. Learn the basic Git commands to get started.",
+    "author": "Olivia Johnson",
+    "tags": [
+      "git",
+      "version control"
+    ],
+    "date": "2023-11-21T12:30:25Z",
+    "bookmarked": false
+  },
+  {
+    "id": "cc94b8bc-8ca8-4413-b8a1-4e75f3ea0196",
+    "title": "Introduction to CSS Flexbox",
+    "content": "Flexbox is a CSS layout model that allows for responsive web design by distributing space dynamically between elements in a container.",
+    "author": "Liam Brown",
+    "tags": [
+      "css",
+      "frontend"
+    ],
+    "date": "2024-02-05T17:12:39Z",
+    "bookmarked": false
+  },
+  {
+    "id": "cf72c585-95c0-475e-ae71-4f56df9c7580",
+    "title": "Building Scalable Web Applications",
+    "content": "Learn best practices for building web applications that can scale with demand, including strategies for load balancing, caching, and microservices.",
+    "author": "Amelia Lee",
+    "tags": [
+      "scalability",
+      "web development"
+    ],
+    "date": "2023-12-11T14:05:14Z",
+    "bookmarked": true
+  },
+  {
+    "id": "5f85c6c4-b09d-460f-85c7-e8c90b4a20f2",
+    "title": "Getting Started with Redux",
+    "content": "Redux is a predictable state container for JavaScript apps, helping to manage the application state in a consistent way. Learn how to set up Redux in your React application.",
+    "author": "Ethan Williams",
+    "tags": [
+      "redux",
+      "react"
+    ],
+    "date": "2024-01-22T19:13:09Z",
+    "bookmarked": false
+  },
+  {
+    "id": "94e2cd39-25e1-4534-b133-52f24bbd489b",
+    "title": "Using MongoDB with Node.js",
+    "content": "Learn how to connect a Node.js application to a MongoDB database using Mongoose, an Object Data Modeling (ODM) library for MongoDB and Node.js.",
+    "author": "Charlotte King",
+    "tags": [
+      "mongodb",
+      "node.js"
+    ],
+    "date": "2023-11-30T16:22:41Z",
+    "bookmarked": false
+  },
+  {
+    "id": "bb6ecf34-8c27-4c99-b420-330bd8a44f88",
+    "title": "Introduction to Webpack",
+    "content": "Webpack is a module bundler that helps manage dependencies, optimize code, and bundle JavaScript, CSS, and other assets for production use.",
+    "author": "Zoe Robinson",
+    "tags": [
+      "webpack",
+      "frontend"
+    ],
+    "date": "2024-02-12T13:45:17Z",
+    "bookmarked": false
+  },
+  {
+    "id": "312d8d88-8e84-4be5-aaf7-d37826d9c3b5",
+    "title": "Mastering React Hooks",
+    "content": "React Hooks are a feature that allows you to use state and other React features without writing a class. Learn about `useState`, `useEffect`, and custom hooks.",
+    "author": "Lucas White",
+    "tags": [
+      "react",
+      "hooks"
+    ],
+    "date": "2024-01-18T09:33:42Z",
+    "bookmarked": false
+  },
+  {
+    "id": "597b4650-b835-4856-9745-fd2b3c65b17b",
+    "title": "Introduction to API Authentication",
+    "content": "API authentication ensures that only authorized users can access specific resources. Explore the different methods like token-based authentication and OAuth.",
+    "author": "Ella Wright",
+    "tags": [
+      "api",
+      "authentication"
+    ],
+    "date": "Tue Mar 18 2025",
+    "bookmarked": true
+  },
+  {
+    "id": "94a3b9ad-bf4a-4dfd-87a7-8e2fa8f3b12e",
+    "title": "Building Real-Time Applications with WebSockets",
+    "content": "WebSockets allow full-duplex communication between a client and a server. Learn how to build real-time applications like chat apps and live notifications.",
+    "author": "Benjamin Green",
+    "tags": [
+      "websockets",
+      "real-time"
+    ],
+    "date": "2024-02-07T11:12:47Z",
+    "bookmarked": false
+  },
+  {
+    "id": "f540b31d-e64b-4bdb-9e3d-bf65159f2676",
+    "title": "Understanding Cross-Origin Resource Sharing (CORS)",
+    "content": "CORS is a security feature that allows or restricts resources on a web server based on the origin of the request. Learn how to handle CORS issues in your applications.",
+    "author": "Ethan Thomas",
+    "tags": [
+      "cors",
+      "security"
+    ],
+    "date": "2024-01-30T08:40:25Z",
+    "bookmarked": false
+  },
+  {
+    "id": "92867426-bc5c-4f2b-8d87-937de4c04f60",
+    "title": "A Deep Dive into JavaScript Arrays",
+    "content": "JavaScript arrays are one of the most commonly used data structures. Learn the methods and techniques for manipulating and iterating through arrays.",
+    "author": "James Harris",
+    "tags": [
+      "javascript",
+      "arrays"
+    ],
+    "date": "2023-11-14T12:23:13Z",
+    "bookmarked": false
+  },
+  {
+    "id": "30155b09-42b0-4972-9751-c938c8ad7a0d",
+    "title": "Building a Portfolio with HTML and CSS",
+    "content": "A strong portfolio is crucial for web developers. Learn how to build a portfolio website using HTML and CSS to showcase your skills.",
+    "author": "Isabella Martinez",
+    "tags": [
+      "html",
+      "css",
+      "portfolio"
+    ],
+    "date": "2024-02-28T10:31:50Z",
+    "bookmarked": true
+  },
+  {
+    "id": "7d2b93a2-8baf-4525-a45d-f7994ed1d635",
+    "title": "Working with Date and Time in JavaScript",
+    "content": "JavaScript has a powerful `Date` object for working with dates and times. Learn how to manipulate, format, and perform calculations with dates.",
+    "author": "Zoe Carter",
+    "tags": [
+      "javascript",
+      "date"
+    ],
+    "date": "Mon Mar 17 2025",
+    "bookmarked": false
+  },
+  {
+    "id": "ff383214-3490-4d2e-bcc6-5db37a9a2a77",
+    "title": "Learning SQL Joins",
+    "content": "SQL joins are used to combine data from multiple tables. Learn about inner joins, left joins, and right joins, and how they can be used to query data effectively.",
+    "author": "Ethan Scott",
+    "tags": [
+      "sql",
+      "database"
+    ],
+    "date": "2024-01-24T12:12:34Z",
+    "bookmarked": false
+  },
+  {
+    "id": "d9e8a32f-1295-45e6-bfad-e32cc6efb1b5",
+    "title": "Building RESTful APIs with Flask",
+    "content": "Flask is a micro web framework for Python. Learn how to build lightweight, fast RESTful APIs using Flask for your web applications.",
+    "author": "Aiden Cooper",
+    "tags": [
+      "flask",
+      "api",
+      "python"
+    ],
+    "date": "2023-12-18T11:32:05Z",
+    "bookmarked": true
+  },
+  {
+    "title": "JAVA",
+    "content": "Java is a widely-used, object-oriented programming language known for its platform independence, scalability, and robustness. It follows the \"Write Once, Run Anywhere\" (WORA) principle, meaning Java applications can run on any system with a Java Virtual Machine (JVM).",
+    "author": "Sushil",
+    "tags": [
+      "java",
+      "JVM",
+      "programming"
+    ],
+    "bookmarked": true,
+    "date": "Mon Mar 17 2025",
+    "id": "23a261b7-f265-4540-84a3-826098e94252"
+  },
+  {
+    "title": "VueJs",
+    "content": "Vue.js is a lightweight, flexible, and progressive JavaScript framework used for building user interfaces and single-page applications (SPAs). It is designed to be adoptable, meaning you can use it for simple projects or scale it up for complex applications with tools like Vue Router and Vuex (or Pinia for state management).",
+    "author": "Sushil",
+    "tags": [
+      "JavaScript"
+    ],
+    "bookmarked": true,
+    "date": "Mon Mar 17 2025",
+    "id": "80cd7797-8332-40de-a69e-99b54e57c26a"
+  },
+  {
+    "id": "4cff8d44-9902-4716-bde0-cfde0ef4deb0",
+    "title": "Argue us station picture later hear.",
+    "content": "Degree power between establish kitchen right responsibility.\nExactly member reduce every often probably. Sure night voice then low social politics.",
+    "author": "Peter Doyle",
+    "tags": [
+      "python",
+      "javascript"
+    ],
+    "date": "2023-01-17T20:43:36.042599Z",
+    "bookmarked": false
+  },
+  {
+    "id": "961074c8-e1bb-40ef-afd3-d75bd7591dbf",
+    "title": "Way business discussion can administration protect.",
+    "content": "Wonder decade beautiful happen until political. Left election poor both law draw myself.\nPopulation letter choose admit authority note. Role forget pressure sure.",
+    "author": "Joshua Smith",
+    "tags": [
+      "react",
+      "vue"
+    ],
+    "date": "2022-07-10T20:43:36.042998Z",
+    "bookmarked": true
+  },
+  {
+    "id": "158bb910-ab66-45a2-bf56-3051aa042ef4",
+    "title": "Foot see building require space seem water.",
+    "content": "Suffer authority wonder require fall eat. Tough his a outside inside.\nBetween window travel unit. Particularly better place. Probably event Mr ago dog trouble out.",
+    "author": "Jessica Bradley",
+    "tags": [
+      "python",
+      "css"
+    ],
+    "date": "2024-06-19T20:43:36.043435Z",
+    "bookmarked": true
+  },
+  {
+    "id": "0f5ad21b-2386-4569-bd98-0b16ca56c429",
+    "title": "Forget box recently read author safe",
+    "content": "Someone onto require glass share perform six. When model change know land. But he high usually. Little Democrat remember nation language subject.",
+    "author": "Elizabeth Peters",
+    "tags": [
+      "css",
+      "python"
+    ],
+    "date": "Mon Mar 17 2025",
+    "bookmarked": false
+  },
+  {
+    "id": "88fa02c2-27bc-435d-b0cd-fbd5301e2538",
+    "title": "Early people affect may.",
+    "content": "Later often business score idea. Water nature group anything effort. Approach born rock science third.",
+    "author": "Carolyn Nguyen",
+    "tags": [
+      "css",
+      "react"
+    ],
+    "date": "2023-02-12T20:43:36.044152Z",
+    "bookmarked": false
+  },
+  {
+    "id": "07f2b5a3-81d3-4b2b-8a96-10c1c415e6fd",
+    "title": "Tell yet sure four career either.",
+    "content": "Direct find serve different speech student simply.\nPrepare animal also more suggest.\nService rate exactly your work street project.",
+    "author": "Brittany Lee",
+    "tags": [
+      "react",
+      "javascript"
+    ],
+    "date": "2023-05-22T20:43:36.044722Z",
+    "bookmarked": true
+  },
+  {
+    "id": "7baa4314-5bb8-4e77-b417-46b923920854",
+    "title": "Us choose firm sure hold major around.",
+    "content": "Suddenly window community Mrs point catch. Risk total Mr leave quickly bad. Generation per court different fire value.\nUs whom relationship feel ability.",
+    "author": "Daniel Paul",
+    "tags": [
+      "nodejs",
+      "react"
+    ],
+    "date": "2023-08-25T20:43:36.052395Z",
+    "bookmarked": true
+  },
+  {
+    "id": "d2ca64cd-e9ec-4d7c-ae66-e7395646a06f",
+    "title": "Some expect information report term.",
+    "content": "Continue cover country responsibility nothing full stop. Cultural crime station tell again risk.\nProvide citizen want child. Cover commercial trip stage.",
+    "author": "John Chavez",
+    "tags": [
+      "frontend",
+      "html"
+    ],
+    "date": "2023-05-06T20:43:36.052734Z",
+    "bookmarked": false
+  },
+  {
+    "id": "f9de0554-0cca-4fe7-b3fa-e68827cd1204",
+    "title": "Focus computer every significant billion.",
+    "content": "Energy tend relationship accept serve perhaps. Eye enjoy head good attorney true station. Get same more evidence city course either.\nArticle career red city result spring.",
+    "author": "Megan Valenzuela",
+    "tags": [
+      "frontend",
+      "javascript"
+    ],
+    "date": "2024-02-04T20:43:36.053078Z",
+    "bookmarked": true
+  },
+  {
+    "id": "27dfc7ba-0d55-47be-ba12-5803820b9dda",
+    "title": "Tough throw site throw much actually we.",
+    "content": "Pull director his expect listen provide. Example have all could red. Hair direction tax throughout occur everything spring.",
+    "author": "Brian Miller",
+    "tags": [
+      "react",
+      "vue"
+    ],
+    "date": "2023-02-24T20:43:36.053387Z",
+    "bookmarked": false
+  },
+  {
+    "id": "59239f59-a25b-4d08-8876-354c08fcb34c",
+    "title": "Recognize mouth human two.",
+    "content": "Direction low enough home program effort. Simply quality dog buy simple work drop.\nFind forget key maintain management affect. National north everything interest. Offer low cut.",
+    "author": "Aaron Larsen",
+    "tags": [
+      "css",
+      "backend"
+    ],
+    "date": "2022-09-17T20:43:36.053873Z",
+    "bookmarked": true
+  },
+  {
+    "title": "Ionic",
+    "content": "Ionic is an open-source UI framework used for building cross-platform mobile applications with HTML, CSS, and JavaScript. It is primarily used with frameworks like Angular, React, and Vue, but it can also work with plain JavaScript.",
+    "author": "Sushil Karki",
+    "tags": [
+      "Ionic",
+      "Angular"
+    ],
+    "bookmarked": true,
+    "date": "Mon Mar 17 2025",
+    "id": "71f1ffdd-c3bf-4710-92f9-89e205faa25f"
+  },
+  {
+    "title": "Mastering React with Advanced Concepts",
+    "content": "In this post, we dive into advanced React concepts like Context API, useReducer, and custom hooks. Learn how to manage state efficiently, optimize performance, and build scalable applications.",
+    "author": "Sushil",
+    "tags": [
+      "React"
+    ],
+    "bookmarked": true,
+    "date": "Mon Mar 17 2025",
+    "id": "ca9da82b-2dcd-408d-a33c-184d0fc0c7c0"
   }
- 
 ]
