@@ -4,18 +4,27 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
+const mongoose_1 = __importDefault(require("mongoose"));
 const dotenv_1 = __importDefault(require("dotenv"));
 // Load environment variables
 dotenv_1.default.config();
 const app = (0, express_1.default)();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
+const MONGO_URI = process.env.MONGO_URI || '';
+// Connect to MongoDB
+mongoose_1.default.connect(MONGO_URI)
+    .then(() => console.log('✅ MongoDB connected successfully!'))
+    .catch((error) => console.error('❗ MongoDB connection error:', error));
 // Middleware
 app.use(express_1.default.json());
-// Routes
+// Basic Routes
 app.get('/', (req, res) => {
-    res.send('Hello, Express with TypeScript!');
+    res.send('Hello, MongoDB with TypeScript!');
 });
-// Start the server
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+// Example Route
+app.get('/ping', (req, res) => {
+    res.json({ message: 'Pong! 🏓' });
+});
+app.listen(PORT, () => {
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
