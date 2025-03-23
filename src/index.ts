@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import appRoute from '../src/routes/app.routes'
+import appRoute from './routes/app.routes'
 
 // Load environment variables
 dotenv.config();

@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const mongoose_1 = __importDefault(require("mongoose"));
 const dotenv_1 = __importDefault(require("dotenv"));
+const app_routes_1 = __importDefault(require("./routes/app.routes"));
 // Load environment variables
 dotenv_1.default.config();
 const app = (0, express_1.default)();
@@ -17,10 +18,7 @@ mongoose_1.default.connect(MONGO_URI)
     .catch((error) => console.error('❗ MongoDB connection error:', error));
 // Middleware
 app.use(express_1.default.json());
-// Basic Routes
-app.get('/', (req, res) => {
-    res.send('Hello, MongoDB with TypeScript!');
-});
+app.use('/posts', app_routes_1.default);
 // Example Route
 app.get('/ping', (req, res) => {
     res.json({ message: 'Pong! 🏓' });
