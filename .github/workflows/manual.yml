@@ -13,7 +13,7 @@ jobs:
       - name: Ping Backend URL
         run: |
           echo "Pinging Backend URL at $(date)"
-          response=$(curl -s -o /dev/null -w "%{http_code}" https://blog-backend-lbii.onrender.com)
+          response=$(curl -s -o /dev/null -w "%{http_code}" https://blog-backend-lbii.onrender.com/posts)
           echo "Backend HTTP Status Code: $response"
           if [ "$response" -ne 200 ]; then
             echo "Backend URL failed with status: $response"
